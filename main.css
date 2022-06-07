@@ -1,14 +1,23 @@
 :root {
+    --lblue: #a8d0e6;
+    --dblue: #24305e;
+    --red: #f76c6c;
+    --yellow: #f8e9a1;
     font-size: 24px;
+    background: var(--lblue);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    background-color: #A8D0E6;
+    color: black;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     text-align: center;
 
-    animation: fadein 1s; 
+    animation: fadein 1.5s; 
 }
 
 @keyframes fadein {
