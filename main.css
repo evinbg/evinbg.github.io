@@ -1,0 +1,21 @@
+:root {
+    font-size: 24px;
+}
+
+body {
+    background-color: #A8D0E6;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+    animation: fadein 1s; 
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
