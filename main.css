@@ -13,11 +13,20 @@ html {
 
 body {
     color: black;
-    font-family: "Raleway", sans-serif;
-    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
 
     animation: fadein 1.5s; 
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 64px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 32px;
 }
 
 @keyframes fadein {
